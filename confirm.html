@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi Pesanan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Konfirmasi Pesanan</h1>
+    </header>
+
+    <section id="confirmation">
+        <p id="confirm-name"></p>
+        <p id="confirm-package"></p>
+        <p id="confirm-price"></p>
+        <p id="confirm-duration"></p>
+        <p id="confirm-location"></p>       
+        <h2>Isi Biodata Pemesan:</h2>
+        <form id="orderForm">
+            <input type="text" id="fullName" placeholder="Nama Lengkap" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="phone" placeholder="Nomor Telepon" required>
+            <input type="text" id="capacity" placeholder="kapasitas" required>
+            <button type="submit">Pesan Sekarang</button>
+        </form>
+    </section>
+
+    <footer>
+        <button onclick="goToMain()">Kembali ke Halaman Utama</button>
+    </footer>
+
+    <script src="js/confirm.js"></script>
+</body>
+</html>

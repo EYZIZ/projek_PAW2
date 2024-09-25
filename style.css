@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.package {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.package:hover {
+    background-color: #e8f5e9;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#confirmation {
+    text-align: ;
+    margin: 20px;
+    
+}
+
+.colored-text {
+    background-color: #ffcc00; /* Warna latar belakang untuk teks */
+    color: black; /* Warna teks */
+    padding: 0,5px; /* Jarak dalam teks untuk membuat tampilan lebih baik */
+    border-radius: 5px; /* Membuat sudut membulat */
+    font-size: 16px; /* Ukuran font */
+    margin: 10px;
+}
+.button-container {
+    display: inline-block; /* Membuat kontainer berbentuk inline sehingga hanya sebesar isi teks */
+    flex-direction: column;
+    gap: 2000px;
+    
+
+}
+
+.button-text {
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: rgb(255, 255, 255); /* Warna teks */
+    margin-bottom: 200px;
+    padding: 0,5px 1px; /* Jarak dalam tombol (atas-bawah, kiri-kanan) */
+    border: none; /* Menghapus border default */
+    border-radius: 5px; /* Membuat sudut tombol membulat */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+    text-decoration: none; /* Menghapus garis bawah */
+    font-size: 15px; /* Ukuran font */
+    transition: background-color 0.3s; /* Efek transisi untuk perubahan warna latar belakang */
+    
+    
+    
+}
+
+/* Efek hover untuk tombol */
+.button-text:hover {
+    background-color: #ff0000; /* Warna latar belakang saat hover */
+}
+

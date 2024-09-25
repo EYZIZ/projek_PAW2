@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Wisata Bali",
+        "description": "Liburan ke pantai dan desa tradisional di Bali",
+        "price": 5000000,
+        "duration": "5 hari"
+    },
+    {
+        "id": 2,
+        "name": "Wisata Lombok",
+        "description": "Nikmati keindahan alam Lombok dan pantai pasir putihnya",
+        "price": 4500000,
+        "duration": "4 hari"
+    },
+    {
+        "id": 3,
+        "name": "Wisata Yogyakarta",
+        "description": "Jelajahi candi Borobudur dan keunikan budaya Yogyakarta",
+        "price": 3000000,
+        "duration": "3 hari"
+    }
+]

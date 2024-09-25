@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih Paket Wisata</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Pilih Paket Wisata Anda</h1>
+    </header>
+
+    <section id="packages">
+        <h2>Paket Wisata Tersedia:</h2>
+        
+        <div class="package" onclick="choosePackage('Paket A', 2500000, '3 Hari')">
+            <h3>Paket A</h3>
+            <p>Harga: Rp. 2.500.000</p>
+            <p>Durasi: 3 Hari</p>
+            <p>Destinasi: ASIAN TRIP</p>
+            <ul>
+                <div class="button-container">
+                <li><span class="button-text"onclick="chooseDestination('Tokyo', 2500000)">Tokyo</li>
+                <li><span class="button-text"onclick="chooseDestination('Vietnam', 2500000)">Vietnam</li>
+                </div>
+            </ul>
+        </div>
+        <div class="package" onclick="choosePackage('Paket B', 3000000, '4 Hari')">
+            <h3>Paket B</h3>
+            <p>Harga: Rp. 3.000.000</p>
+            <p>Durasi: 4 Hari</p>
+            <p>Destinasi: EXPERT TRIP</p>
+            <ul>
+                <li><span class="button-text"onclick="chooseDestination('Mesir', 3000000)">Mesir</li>
+                <li><span class="button-text" onclick="chooseDestination('Spanyol', 3000000)">Spanyol</li>
+                <li><span class="button-text" onclick="chooseDestination('Nepal', 3000000)">Nepal</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <button onclick="goToConfirm()">Konfirmasi Pesanan</button>
+        <button onclick="goBack()">Kembali</button>
+    </footer>
+
+    <script src="js/package.js"></script>
+</body>
+</html>
